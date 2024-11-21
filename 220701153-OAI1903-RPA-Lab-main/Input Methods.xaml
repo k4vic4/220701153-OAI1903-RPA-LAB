@@ -1,0 +1,194 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="612,2677.3333333333335" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,2612.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap2010:Annotation.AnnotationText="&quot;This block of code demonstrates a workflow&#xA;that uses different Input Methods to input data in a Notepad.&quot;&#xA;" DisplayName="&quot;Sequence-Code to Test Input Methods&quot;" sap:VirtualizedContainerService.HintSize="546,2502" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="True" DisplayName="Use Application: Document - WordPad" sap:VirtualizedContainerService.HintSize="484,2329.3333333333335" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e5c2cc4f-43eb-49dc-aec7-8c3e98c3bcf1" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2032" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DeselectAfter="True" DisplayName="Type First Text" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="e5c2cc4f-43eb-49dc-aec7-8c3e98c3bcf1" Text="Automation Makes Life Easier" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="11, 254, 1920, 726" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'RICHEDIT50W'" FullSelectorArgument="&lt;wnd cls='RICHEDIT50W' idx='3' /&gt;" FuzzySelectorArgument="&lt;wnd cls='RICHEDIT50W' /&gt;" Guid="e3feef29-bdac-421d-9b91-6ef762a3df8d" InformativeScreenshot="a16d310554a3c5312b4b2b023ce19bc8.png" ScopeSelectorArgument="&lt;wnd app='wordpad.exe' cls='WordPadClass' title='Document - WordPad' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DeselectAfter="True" DisplayName="Types Second Text-Send Window Messages" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="e5c2cc4f-43eb-49dc-aec7-8c3e98c3bcf1" Text="Welcome To the New world Of automation[k(Enter)]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="11, 254, 1920, 726" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;wnd cls='RICHEDIT50W' idx='3' /&gt;" FuzzySelectorArgument="&lt;wnd cls='RICHEDIT50W' /&gt;" Guid="3859014f-8f71-4260-8d24-b2b97f990c76" InformativeScreenshot="199f3f1466909c6426b75832527d9d3a.png" ScopeSelectorArgument="&lt;wnd app='wordpad.exe' cls='WordPadClass' title='Document - WordPad' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NKeyboardShortcuts ActivateBefore="True" sap2010:Annotation.AnnotationText="“Ctrl+A selects all the text&#xA;in the notepad file.”&#xA;" ClickBeforeMode="None" DisplayName="Send Hotkey - Select all text" sap:VirtualizedContainerService.HintSize="388,267.3333333333333" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" ScopeIdentifier="e5c2cc4f-43eb-49dc-aec7-8c3e98c3bcf1" Shortcuts="[d(hk)][d(ctrl)]a[u(ctrl)][u(hk)]" Version="V3">
+                <uix:NKeyboardShortcuts.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="11, 254, 1920, 726" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'RICHEDIT50W'" FullSelectorArgument="&lt;wnd cls='RICHEDIT50W' idx='3' /&gt;" FuzzySelectorArgument="&lt;wnd cls='RICHEDIT50W' /&gt;" Guid="d55b7907-0878-4677-96f3-b76e09c480a2" InformativeScreenshot="85d6ff43cf0fe00330852119e41f1c03.png" ScopeSelectorArgument="&lt;wnd app='wordpad.exe' cls='WordPadClass' title='Document - WordPad' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                </uix:NKeyboardShortcuts.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NKeyboardShortcuts>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open' ()" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e5c2cc4f-43eb-49dc-aec7-8c3e98c3bcf1" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="311, 97, 19, 34" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Open'" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Home' role='property page' /&gt;&lt;ctrl name='Font' role='tool bar' /&gt;&lt;ctrl name='Font family' role='combo box' /&gt;&lt;ctrl name='Open' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Home' role='property page' /&gt;&lt;ctrl name='Font' role='tool bar' /&gt;&lt;ctrl name='Font family' role='combo box' /&gt;&lt;ctrl name='Open' role='push button' automationid='' check:text='Open' /&gt;" Guid="b7db26b9-750b-4f69-8b0e-c8a844c8c140" InformativeScreenshot="3a4231025275ac9891a9a310d707b757.png" ScopeSelectorArgument="&lt;wnd app='wordpad.exe' cls='WordPadClass' title='Document - WordPad' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset Position="TopLeft" X="7" Y="11" />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DeselectAfter="True" DisplayName="Types Second Text-Send Window Messages" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="e5c2cc4f-43eb-49dc-aec7-8c3e98c3bcf1" Text="Times New Roman[k(Enter)]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="172, 101, 138, 27" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='Font family' cls='RICHEDIT50W' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Font family' cls='RICHEDIT50W' /&gt;" Guid="ab534e06-3e78-4462-9c94-80c96392650c" InformativeScreenshot="cd3de547c4909a3a35c50703baa947be.png" ScopeSelectorArgument="&lt;wnd app='wordpad.exe' cls='WordPadClass' title='Document - WordPad' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset Position="BottomLeft" X="46" Y="-9" />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Italic'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e5c2cc4f-43eb-49dc-aec7-8c3e98c3bcf1" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="204, 142, 36, 32" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Home' role='property page' /&gt;&lt;ctrl name='Font' role='tool bar' /&gt;&lt;ctrl name='Italic' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Home' role='property page' /&gt;&lt;ctrl name='Font' role='tool bar' /&gt;&lt;ctrl name='Italic' role='push button' automationid='' check:text='Italic' /&gt;" Guid="883395ed-3100-44e1-8f2b-da68901dc2f3" InformativeScreenshot="a448adccb1949f8637e4f4fb46644b15.png" ScopeSelectorArgument="&lt;wnd app='wordpad.exe' cls='WordPadClass' title='Document - WordPad' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset X="-1" Y="-2" />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '11'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e5c2cc4f-43eb-49dc-aec7-8c3e98c3bcf1" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="371, 97, 19, 34" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Open'" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Home' role='property page' /&gt;&lt;ctrl name='Font' role='tool bar' /&gt;&lt;ctrl name='Font size' role='combo box' /&gt;&lt;ctrl name='Open' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Home' role='property page' /&gt;&lt;ctrl name='Font' role='tool bar' /&gt;&lt;ctrl name='Font size' role='combo box' /&gt;&lt;ctrl name='Open' role='push button' automationid='' check:text='Open' /&gt;" Guid="14c595db-35a0-4264-be5c-4d24f7dbfdb9" InformativeScreenshot="5b7c246ce59aa0a344320988f0e743bf.png" ScopeSelectorArgument="&lt;wnd app='wordpad.exe' cls='WordPadClass' title='Document - WordPad' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset Position="TopRight" X="-5" Y="12" />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DeselectAfter="True" DisplayName="Types Second Text-Send Window Messages" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="e5c2cc4f-43eb-49dc-aec7-8c3e98c3bcf1" Text="30[k(Enter)]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="332, 101, 38, 27" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'11'" FullSelectorArgument="&lt;wnd aaname='Font size' cls='RICHEDIT50W' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Font size' cls='RICHEDIT50W' /&gt;" Guid="441e533b-feef-40ee-b8e2-080d96c2fe69" InformativeScreenshot="fa811e6c9c6425ff6362dab7b0e9df40.png" ScopeSelectorArgument="&lt;wnd app='wordpad.exe' cls='WordPadClass' title='Document - WordPad' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset X="-2" Y="-2" />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-11, -11, 1942, 1030" FilePath="C:\Program Files\Windows NT\Accessories\wordpad.exe" IconBase64="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" InformativeScreenshot="0c1b8fc191f4c3c12d7d40b9ea87347c.png" Selector="&lt;wnd app='wordpad.exe' cls='WordPadClass' title='Document - WordPad' /&gt;" Title="Untitled - Notepad" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
